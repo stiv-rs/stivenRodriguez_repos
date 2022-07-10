@@ -39,6 +39,11 @@ create table metrics(
     foreign key (id_repository) references repository(id_repository)
 );
 
+insert into metrics values
+('1', '80', '0', '0', '0', '0'),
+('2', '50', '0', '1', '0', '0'),
+('3', '90', '0', '2', '0', '0');
+
 insert into organization values 
 (1,'Banco Pichincha', 1),
 (2,'Neoris', 1),
@@ -53,8 +58,9 @@ insert into tribe values
 (6,2,'gerencia',1);
 
 insert into repository values
-(1,1,'repo1','604','2022-03-11','A'),
-(2,1,'repo2','605','2022-07-11','A'),
-(3,1,'repo3','606','2022-07-11','A');
+(1,1,'repo1','604',sysdate(),'A'),
+(2,1,'repo2','605',sysdate(),'A'),
+(3,1,'repo3','606',sysdate(),'A');
+
 
 
