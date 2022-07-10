@@ -58,9 +58,9 @@ insert into tribe values
 (6,2,'gerencia',1);
 
 insert into repository values
-(1,1,'repo1','604',sysdate(),'A'),
-(2,1,'repo2','605',sysdate(),'A'),
-(3,1,'repo3','606',sysdate(),'A');
+(1,1,'repo1','604','2022-03-11','A'),
+(2,1,'repo2','605','2022-07-11','A'),
+(3,1,'repo3','606','2022-07-11','A');
 
 
 
